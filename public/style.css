@@ -1,0 +1,633 @@
+* {
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+    height: 10%;
+    padding: 10px 0 10px 0;
+    position: fixed;
+    background-image: url("/header2.gif");
+    z-index: 1;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* START */
+.container-start {
+    background-image: url("/plant7.jpeg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 120vh;
+}
+
+.small-container-start {
+    text-align: left;
+    padding: 50px;
+    margin-left: 40px;
+}
+
+.small-container-start h1 {
+    font-size: 85px;
+    font-family: 'Lexend Tera', sans-serif;
+    color: white;
+    margin: 170px 0 70px 0;
+    letter-spacing: -3px;
+}
+
+.small-container-start h2 {
+    font-size: 35px;
+    font-family: 'Lexend Tera', sans-serif;
+    color: white;
+    letter-spacing: -2px;
+    width: 900px;
+    text-align: justify;
+}
+
+/* PETITION */
+
+.container-petition {
+    background-image: url("/plant7.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-inputs  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 70%;
+    background-color: #5c7658;
+    border-radius: 2px;
+}
+
+.sign h2 {
+    font-size: 25px;
+    font-family: 'Lexend Tera', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.sign h3 {
+    font-size: 20px;
+    font-family: 'Lexend Tera', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.petition-button{
+    color: #d25959;
+    padding: 16px 32px;
+    cursor: pointer;
+    border-radius: 2px;
+    width: 40%;
+    position: relative;
+    margin-left: 45px;
+}
+
+.petition-button:hover {
+    border: 1px solid whitesmoke;
+}
+
+ .container-inputs form {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
+
+ canvas {
+     background-color: whitesmoke;
+     border: #5c7658 solid 2px;
+     margin-top: 30px;
+     border-radius: 2px;
+ }
+
+ /* REGISTRATION */
+
+.register {
+    margin-top: 100px;
+}
+
+.container-registration  {
+    background-image: url("/plant7.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 130vh;
+}
+
+.container-registration form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    width: 50%;
+    height: 75%;
+    background-color: #5c7658;
+    border-radius: 2px;
+    margin-bottom: 50px;
+}
+
+.container-regis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.container-regis input {
+    width: 80%;
+    margin: 25px 0 0 45px;
+    border-radius: 2px;
+}
+
+.register h3 {
+    font-size: 30px;
+    font-family: 'Lexend Tera', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.register h5 {
+    font-size: 20px;
+    font-family: 'Lexend Tera', sans-serif;
+    color: white;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+label {
+    font-family: 'Lexend Tera', sans-serif;
+    font-size: 10px;
+    color: white;
+    margin-left: 45px;;
+}
+
+.register-button {
+  color: #d25959;
+  padding: 16px 32px;
+  cursor: pointer;
+  border-radius: 2px;
+  width: 30%;
+  position: relative;
+  margin-left: 45px;
+}
+
+.register-button:hover {
+    border: 1px solid whitesmoke;
+}
+
+/* LOGIN */
+
+.container-login {
+    background-image: url("/plant7.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.small-container-login {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    width: 50%;
+    height: 55%;
+    background-color: #5c7658;
+    border-radius: 2px;
+}
+
+.small-container-login input {
+    width: 80%;
+    border-radius: 2px;
+    margin: 0px 0px 15px 45px;
+}
+
+.login h3{
+    font-size: 25px;
+    font-family: 'Lexend Tera', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.login-button {
+    color: #d25959;
+    padding: 16px 32px;
+    cursor: pointer;
+    border-radius: 2px;
+    width: 30%;
+    position: relative;
+    margin-left: 45px;
+}
+
+.login-button:hover {
+    border: 1px solid whitesmoke;
+}
+
+
+/* PROFILE */
+
+.container-prof {
+    background-image: url("/plant7.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.container-prof form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    width: 50%;
+    height: 65%;
+    background-color: #5c7658;
+    border-radius: 2px;
+    margin-bottom: 30px;
+}
+
+.profile-button{
+    color: #d25959;
+    padding: 16px 32px;
+    cursor: pointer;
+    border-radius: 2px;
+    width: 30%;
+    position: relative;
+    margin-left: 45px;
+}
+
+.profile-button:hover {
+    border: 1px solid whitesmoke;
+}
+
+.profile {
+    margin-top: 110px;
+}
+
+.profile h3 {
+    font-size: 30px;
+    font-family: 'Lexend Tera', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.profile h5 {
+    font-size: 20px;
+    font-family: 'Lexend Tera', sans-serif;
+    color: white;
+    padding: 10px;
+}
+
+.container-profile input {
+    width: 80%;
+    margin: 25px 0 0 45px;
+    border-radius: 2px;
+}
+
+.pro-buttons {
+    display: flex;
+    align-items: baseline;
+    justify-content:space-between;
+    margin-bottom: 35px;
+}
+
+.edit {
+    font-size: 25px;
+    font-family: 'Lexend Tera', sans-serif;
+    color: whitesmoke;
+    margin-top: 30px;
+}
+
+input {
+    padding: 12px 20px;
+    width: 40%;
+    margin-top: 30px;
+    border: none;
+    position: relative;
+    border-radius: 10px;
+}
+
+/* THANKS PAGE */
+
+.container-thanks {
+    background-image: url("/plant7.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 180vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-thanks {
+    text-align: center;
+}
+
+.title-thanks h1 {
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: 'Lexend Tera', sans-serif;
+    color: white;
+}
+
+.title-thanks h2 {
+    font-size: 15px;
+    margin: 20px 0 15px 0;
+    font-family: 'Lexend Tera', sans-serif;
+    color: white;
+}
+
+.delete-signature-button {
+    color: #d25959;
+    padding: 16px 32px;
+    cursor: pointer;
+    border-radius: 2px;
+    width: 80%;
+    position: relative;
+    margin-left: 30px;
+}
+
+.delete-signature-button:hover {
+    border: 1px solid whitesmoke;
+}
+
+.small-container-thanks img {
+    background-color: whitesmoke;
+    border-radius: 2px;
+    padding: 40px;
+    margin: 50px 30px 0 0;
+}
+
+.small-container-thanks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 45%;
+    background-color: #5c7658;
+    border-radius: 2px;
+    margin: 0 0 30px 0;
+}
+
+.note {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 79%;
+    height: 20%;
+    background-color: #5c7658;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.note h5 {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: 'Lexend Tera', sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    border: solid 3px white;
+    padding: 50px;
+}
+
+/* SUPPORTERS */
+
+.container-supporters {
+    background-image: url("/plant7.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 210vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.small-container-supporters {
+    width: 100%;
+    height: 180vh;
+}
+
+.container-supporters h2 {
+    font-size: 30px;
+    font-family: 'Lexend Tera', sans-serif;
+    color: white;
+    margin: 70px 0 20px 0;
+    text-align: center;
+}
+
+.supporters-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.supporters {
+    font-size: 16px;
+    font-family: 'Lexend Tera', sans-serif;
+    color: white;
+    margin: 10px 0 0 0;
+    text-align: center;
+    background-color: #76a21e;
+    width: 60%;
+}
+
+.supporters a {
+    color: #d25959;
+    font-weight: bolder;
+}
+
+/* SAME SITY SUPPORTERSS */
+
+.container-supporters-same-city{
+    background-image: url("/plant7.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-supporters-same-city h2 {
+    font-size: 30px;
+    font-family: 'Lexend Tera', sans-serif;
+    color: white;
+    margin: -80px 0 20px 0;
+    text-align: center;
+}
+
+.supporters-same-city {
+    font-size: 16px;
+    font-family: 'Lexend Tera', sans-serif;
+    color: white;
+    margin: 10px 0 0 30px;
+    text-align: center;
+    background-color: #76a21e;
+}
+
+.supporters-same-city a {
+color: #d25959;
+font-weight: bolder;
+}
+
+/* THE FOREST */
+
+.about {
+    margin-top: 130px;
+}
+
+.container-forest {
+    background-image: url("/plant7.jpeg");
+    background-size: cover;
+    width: 100%;
+}
+
+.small-container-forest {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.small-container-forest h2 {
+    font-size: 1.5rem;
+    font-family: 'Lexend Tera', sans-serif;
+    color: #d25959;
+    text-align: center;
+    padding-bottom: 20px;
+    max-width: 900px;
+}
+
+.small-container-forest p {
+    color: whitesmoke;
+    font-family: 'Lexend Tera', sans-serif;
+    font-size: 1.0625rem;
+    line-height: 1.5rem;
+    text-align: justify;
+    width: 1100px;
+    letter-spacing: -2px;
+    margin-bottom: 0.5rem;
+}
+
+.small-container-forest a {
+    color: #d25959;
+    font-weight: bolder;
+}
+
+.container-forest nav {
+    margin-right: 40px;
+}
+
+nav p {
+    font-family: 'Lexend Tera', sans-serif;
+    letter-spacing: 1px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+    padding: 30px;
+    font-size: 0.70rem;
+    color: white;
+}
+
+.container-forest nav a:hover {
+    border-bottom: 1px solid #76a21e;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+button {
+    margin-top: 20px;
+    font-family: 'Lexend Tera', sans-serif;
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-image: url("/header2.gif");
+    width: 100%;
+    height: 10%;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-left: 0px;
+    z-index: 2;
+}
+
+footer p {
+    margin-left: 15px;
+    font-size: 10px;
+    color: white;
+    font-family: 'Lexend Tera', sans-serif;
+}
+
+button {
+    margin-right: 30px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 2px;
+    border: solid white 2px;
+    cursor:pointer;
+    color: #d25959;
+}
+
+button:hover{
+    border: solid 1px white;
+}
+
+.error {
+    font-size: 10px;
+    font-family: 'Lexend Tera', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 70%;
+}

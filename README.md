@@ -1,9 +1,10 @@
 # Petition-SOS-Amazonia
-## Online petition made with Express + Handlebars. 
+The idea behind this project is to create an online petition that visitors can sign to make their voice heard on an issue. 
+The stack of this application is Node.js/Express, JavaScript/Handlebars.js, CSS 3, HTML5, SQL/Postgres, Cookie Session/CSRF-Token.
+
 <img width="940" alt="petition-main" src="https://user-images.githubusercontent.com/50359290/67025162-dc05aa00-f105-11e9-8280-e673fd353feb.PNG">
 
 # Stack 
-
 - Node.js/Express
 - JavaScript/Handlebars.js
 - CSS 3
@@ -11,9 +12,17 @@
 - SQL/Postgres
 - Cookie Session/CSRF-token
 
+# Features
+- Login 
+- Registration
+- Canvas Signature Pad
+- Check and Delete Signature
+- Check the list of all supporters
+
+
 # Description and Preview
 
-- Registering Area
+- Registration Area
 
 ![chrome-capture (1)](https://user-images.githubusercontent.com/50359290/67029855-6baf5680-f10e-11e9-8ee9-556eaac59628.gif)
 
@@ -36,5 +45,13 @@
 <img width="946" alt="checksig2" src="https://user-images.githubusercontent.com/50359290/67034466-06f8f980-f118-11e9-91d9-6d41fd67d4c8.PNG">
 
 ![chrome-capture (7)](https://user-images.githubusercontent.com/50359290/67034121-64d91180-f117-11e9-961c-ec348bff1d6e.gif)
+
+- All Supporters: list of all the people who have signed the petition + the additional profile information that is available.
+
+<img width="948" alt="supporters" src="https://user-images.githubusercontent.com/50359290/67035293-b4b8d800-f119-11e9-8c7b-6ccb4b9d82be.PNG">
+
+- Supporters From The Same City: when the cities names are clicked, the users are directed to a new page that shows only the people who have signed the petition that live in that city.
+
+<img width="946" alt="samecity" src="https://user-images.githubusercontent.com/50359290/67035656-57715680-f11a-11e9-8d60-0aca7e427459.PNG">
 
 

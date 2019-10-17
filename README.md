@@ -4,10 +4,9 @@
 
 # Stack 
 
-- Node.js / Express
-- Handlebars.js
-- Jest / SuperTest
+- Node.js/Express
+- JavaScript/Handlebars.js
 - CSS 3
-- AWS S3
-- SQL / Postgres
-- Cookie Session / CSRF-token
+- HTML5
+- SQL/Postgres
+- Cookie Session/CSRF-token

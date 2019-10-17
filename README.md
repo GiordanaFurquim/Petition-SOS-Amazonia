@@ -10,3 +10,10 @@
 - HTML5
 - SQL/Postgres
 - Cookie Session/CSRF-token
+
+# Description and Preview
+
+- Registering area
+
+![chrome-capture (1)](https://user-images.githubusercontent.com/50359290/67029855-6baf5680-f10e-11e9-8ee9-556eaac59628.gif)
+

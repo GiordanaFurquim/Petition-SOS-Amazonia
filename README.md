@@ -18,6 +18,7 @@ The stack of this application is Node.js/Express, JavaScript/Handlebars.js, CSS 
 - Canvas Signature Pad
 - Check and Delete Signature
 - Check the list of all supporters
+- Descriptive page about the issue
 
 
 # Description and Preview
@@ -53,5 +54,12 @@ The stack of this application is Node.js/Express, JavaScript/Handlebars.js, CSS 
 - Supporters From The Same City: when the cities names are clicked, the users are directed to a new page that shows only the people who have signed the petition that live in that city.
 
 <img width="946" alt="samecity" src="https://user-images.githubusercontent.com/50359290/67035656-57715680-f11a-11e9-8d60-0aca7e427459.PNG">
+
+- Descriptive page about the issue
+
+<img width="947" alt="aboutheforest1" src="https://user-images.githubusercontent.com/50359290/67037158-44ac5100-f11d-11e9-8346-b55cd7aed17d.PNG">
+
+<img width="946" alt="abouthefores2" src="https://user-images.githubusercontent.com/50359290/67037194-5c83d500-f11d-11e9-9ddc-9b7dea74a6d3.PNG">
+
 
 

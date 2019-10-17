@@ -28,10 +28,3 @@ CREATE TABLE users_profiles (
     user_id INT REFERENCES users(id) NOT NULL UNIQUE
 
 );
-
-/* sudo service postgresql start */
--- SELECT * FROM name of the table
--- JOIN name of the other table
--- ON name of the other table
---------------------------------------------------------
--- FROM signatures (this would be our first table)

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>SOS Amazonia</title>
+        <link rel="stylesheet" href="/style.css" />
+        <link href="https://fonts.googleapis.com/css?family=Lexend+Tera&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+
+                <a href="/theforest"><button>THE FOREST</button></a>
+                {{#if loggedOut}}
+                <a href="/registration"><button>REGISTER</button></a>
+                <a href="/login"><button>LOGIN</button></a>
+                {{/if}}
+                {{#if loggedIn}}
+                <a href="/profile"><button>SET PROFILE</button></a>
+                <a href="/logout"> <button>LOGOUT</button></a>
+                {{/if}}
+                {{#if isRegistration}}
+                <a href="/login"><button>LOGIN</button></a>
+                {{/if}}
+                {{#if isProfile}}
+                <a href="/logout"> <button>LOGOUT</button></a>
+                {{/if}}
+                {{#if isThanksPage}}
+                <a href="/profile"><button>SET PROFILE</button></a>
+                <a href='/supporters'><button>SUPPORTERS</button></a>
+                <a href="/logout"> <button>LOGOUT</button></a>
+                {{/if}}
+
+            </nav>
+        </header>
+
+        {{{body}}}
+
+
+
+
+
+
+
+
+
+
+
+        <footer>
+            <p>Project by Giordana Furquim</p>
+            <p> © SPICED Academy, 2019.</p>
+            <p>Header and footer illustration Summer GIF By Dylan Morang</p>
+        </footer>
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src='/canvas.js'></script>
+        <script src="/script.js" type="text/javascript"></script>
+    </body>
+
+</html>

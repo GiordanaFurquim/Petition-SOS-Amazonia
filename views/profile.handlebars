@@ -1,0 +1,27 @@
+
+<div class="container-prof">
+    <div class="container-profile">
+        <div class="profile">
+            <h3>How about setting up a profile?</h3>
+            <h5>That's optional, but would be cool to know a little more about you.</h5>
+        </div>
+        <div class="error">
+            {{#if error}}
+            <h2>{{error}}</h2>
+            {{/if}}
+        </div>
+        <form method="POST">
+
+            <label for="age">Age</label>
+            <input type="text" name="age" placeholder="29"><br>
+            <label for="city">City</label>
+            <input type="text" name="city" placeholder="São Paulo"><br>
+            <label for="url">Web Page</label>
+            <input type="url" name="url" placeholder="www.amazingpage.com"><br>
+            <input type="hidden" name="_csrf" value="{{csrfToken}}"><br>
+                <button class="profile-button">NEXT</button>
+
+
+        </form>
+    </div>
+</div>

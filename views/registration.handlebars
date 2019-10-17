@@ -1,0 +1,28 @@
+<div class="container-registration">
+    <div class="container-regis">
+        <div class="register">
+        <h3>It's good to see you here!<h3>
+            <h5>If you are not yet a member, register first:</h5>
+        </div>
+
+        <form method="POST">
+
+            <div class="error">
+                {{#if error}}
+                <h2>{{error}}</h2>
+                {{/if}}
+            </div>
+
+            <label for="first"><span style="color:#d25959">* </span> First Name</label>
+            <input type="text" id="first" name="first" placeholder="Leonardo" required><br>
+            <label for="last"><span style="color:#d25959">*</span> Last Name</label>
+            <input type="text" id="last" name="last" placeholder="DiCaprio" required><br>
+            <label for="email"><span style="color:#d25959">*</span> Email</label>
+            <input type="email" id="email" name="email" placeholder="leo@dicaprio.com" required><br>
+            <label for="password"><span style="color:#d25959">*</span> Password</label>
+            <input type="password" id="password" name="password" placeholder="Super Secret Password" required>
+            <input type="hidden" name="_csrf" value="{{csrfToken}}"><br>
+            <button class="register-button">REGISTER</button>
+        </form>
+    </div>
+</div>

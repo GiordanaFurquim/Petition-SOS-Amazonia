@@ -1,0 +1,17 @@
+
+<div class="container-thanks">
+    <div class="small-container-thanks">
+        <div class="title-thanks">
+        <h1>We are so happy that you've chosen to support this cause...</h1>
+        <h2>That's how your signature looks like:</h2>
+        </div>
+        <img src='{{signatures}}'>
+        <form class="delete-signature" method="post">
+            <input type="hidden" name="_csrf" value="{{csrfToken}}"><br>
+            <button class="delete-signature-button">DELETE SIGNATURE</button>
+        </form>
+    </div>
+    <div class="note">
+        <h5>Hey, you! Now that you're one of our supporters, you can check out who else is in it with you. All you have to do is click on the SUPPORTERS menu at the upper toolbar. </h5>
+    </div>
+</div>

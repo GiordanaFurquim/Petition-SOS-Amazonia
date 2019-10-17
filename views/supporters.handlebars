@@ -1,0 +1,22 @@
+<div class="container-supporters">
+    <h2>They also wanna do something about it...</h2>
+        <div class="small-container-supporters">
+            <div class="supporters-list">
+                {{#supporters}}
+                        <ul class='supporters'>
+                            {{#if url}}
+                                <a href="{{url}}" target="_blank">{{first}} {{last}} |</a>
+                            {{else}}
+                                {{first}} {{last}} |
+                            {{/if}}
+                            {{#if age}}
+                                {{age}} |
+                            {{/if}}
+                            {{#if city}}
+                                <a href='/petition/supporters/{{city}}'>{{city}}</a>
+                            {{/if}}
+                        </ul>
+                    {{/supporters}}
+                </div>
+            </div>
+        </div>

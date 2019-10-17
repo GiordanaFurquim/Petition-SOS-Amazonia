@@ -1,0 +1,21 @@
+<div class="container-petition">
+    <div class="container-inputs">
+        <div class="error">
+        {{#if error}}
+        <h2>{{error}}</h2>
+        {{/if}}
+    </div>
+    <div class="sign">
+        <h2>You are almost there!</h2>
+        <h3>All you have to do now is to sign below.</h3>
+    </div>
+
+        <form method="POST">
+            <input type="hidden" name="signatures" id='signature' value=''>
+            <input type="hidden" name="_csrf" value="{{csrfToken}}">
+            <canvas class='canvas' id="js-paint paint-canvas" width="600" height="160"></canvas><br>
+
+            <button class="petition-button">SUBMIT SIGNATURE</button>
+        </form>
+    </div>
+</div>

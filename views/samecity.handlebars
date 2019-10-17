@@ -1,0 +1,22 @@
+<div class="container-supporters-same-city">
+<div class="small-container-supporters-same-city">
+    <h2>You're not alone in {{city}}, son</h2>
+
+{{#supporters}}
+            <p class='supporters-same-city'>
+                {{#if url}}
+                    <a href="{{url}}" target="_blank">{{first}} {{last}}  </a>|
+                {{else}}
+                    {{first}} {{last}} |
+                {{/if}}
+                {{#if age}}
+                    {{age}} |
+                {{/if}}
+                {{#if city}}
+                    <a href='/petition/supporters/{{city}}'>{{city}}  </a>
+                {{/if}}
+            </p>
+{{/supporters}}
+
+</div>
+</div>

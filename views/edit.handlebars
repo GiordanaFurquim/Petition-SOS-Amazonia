@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="container-edit">
+        <form method="POST">
+            <div class="edit">
+            <p>We like updates.<br> Keep us up to date!</p>
+            </div>
+            <input type="text" name="first" placeholder="First Name"><br>
+            <input type="text" name="last" placeholder="Last Name"><br>
+            <input type="number" name="age" placeholder="Age"><br>
+            <input type="text" name="city" placeholder="New City"><br>
+            <input type="url" name="url" placeholder="URL"><br>
+            <input type="email" name="email" placeholder="New Email"><br>
+            <input type="password" name="password" placeholder="New Password"><br>
+            <input type="hidden" name="_csrf" value="{{csrfToken}}"><br>
+            <button>UPDATE PROFILE</button>
+        </form>
+    </div>
+</div>
+
+
+{{#if error}}
+<h2>{{error}}</h2>
+{{/if}}

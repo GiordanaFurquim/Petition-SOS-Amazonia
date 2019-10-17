@@ -1,0 +1,20 @@
+<div class="container-login">
+    <div class="login">
+    <h3>Already a supporter? Login!</h3>
+    </div>
+    <div class="error">
+        {{#if error}}
+        <h2>{{error}}</h2>
+        {{/if}}
+    </div>
+    <div class="small-container-login">
+        <form method="POST">
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="mark@ruffalo.com"><br>
+            <label for="password">Password</label>
+            <input type="password" name="password" placeholder="Top Secret Credentials"><br>
+            <input type="hidden" name="_csrf" value="{{csrfToken}}"><br>
+            <button class="login-button">GO</button>
+        </form>
+    </div>
+</div>

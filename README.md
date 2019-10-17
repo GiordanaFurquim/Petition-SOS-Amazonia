@@ -29,3 +29,12 @@
 
 ![chrome-capture (4)](https://user-images.githubusercontent.com/50359290/67032874-c51a8400-f114-11e9-848e-a3b1238fa85d.gif)
 
+- Check and Delete Signature
+
+<img width="947" alt="checksig" src="https://user-images.githubusercontent.com/50359290/67034445-fba5ce00-f117-11e9-87e2-6aab17d7e858.PNG">
+
+<img width="946" alt="checksig2" src="https://user-images.githubusercontent.com/50359290/67034466-06f8f980-f118-11e9-91d9-6d41fd67d4c8.PNG">
+
+![chrome-capture (7)](https://user-images.githubusercontent.com/50359290/67034121-64d91180-f117-11e9-961c-ec348bff1d6e.gif)
+
+

@@ -7,7 +7,7 @@
 - Node.js / Express
 - Handlebars.js
 - Jest / SuperTest
-- CSS
+- CSS 3
 - AWS S3
 - SQL / Postgres
 - Cookie Session / CSRF-token
